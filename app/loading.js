@@ -3,7 +3,7 @@ import React from 'react';
 const Loading = () => {
 
     return (
-        <div className=' flex justify-center items-center'>
+        <div className='min-h-[calc(100vh-64px)] flex justify-center items-center'>
             <p className='text-xl font-bold'>Loading..............</p>
         </div>
     );
