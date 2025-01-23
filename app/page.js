@@ -6,7 +6,7 @@ const Home = async () => {
   const posts = await getAllPosts();
   return (
     <main className='container mx-auto mt-8 my-5'>
-      <h1 className='text-3xl text-center mb-2 font-semibold'>Welcome to Our Blog Viewer</h1>
+      <h1 className='text-3xl text-black text-center mb-2 font-semibold'>Welcome to Our Blog Viewer</h1>
       <p className='w-[90%] mx-auto text-center font-medium text-gray-500 mb-8 lg:mb-10'>
         Discover engaging blog posts and explore the details of each one.
       </p>
@@ -14,7 +14,7 @@ const Home = async () => {
         {posts.map(post => (
           <Link href={`/blog/${post.id}`} key={post.id}>
             <div
-              className='p-4 bg-white border rounded-md shadow-md hover:shadow-lg hover:bg-blue-50 transition duration-300 ease-in-out h-44'
+              className='p-4 bg-white border rounded-md shadow-md hover:shadow-lg hover:bg-blue-50 transition duration-300 ease-in-out h-48 sm:h-44'
             >
               <p className='text-lg mb-2 font-semibold text-blue-950'>
                 Post ID: {post.id}

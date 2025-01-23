@@ -11,7 +11,7 @@ const PostDetails = async ({ params }) => {
             {/* Page Title Section */}
             <header className="pt-6">
                 <div className="container mx-auto max-w-4xl">
-                    <h1 className='text-3xl font-semibold text-center mb-2'>Post Details</h1>
+                    <h1 className='text-3xl font-semibold text-black text-center mb-2'>Post Details</h1>
                     <p className='w-[90%] mx-auto text-center font-medium text-gray-500 mb-8 lg:mb-10'>
                     Dive into the specifics of the selected post and explore its content in detail.
                     </p>
