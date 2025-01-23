@@ -11,7 +11,7 @@ const Profile = async() => {
         Welcome to your profile!
         </p>
 
-    </main>: redirect('api/auth/login')
+    </main>: redirect('/api/auth/login')
     );
 };
 
